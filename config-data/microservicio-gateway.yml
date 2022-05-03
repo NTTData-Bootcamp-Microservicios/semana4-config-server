@@ -122,6 +122,6 @@ eureka:
     fetch-registry: 'true'
     register-with-eureka: 'true'
     service-url:
-      defaultZone: https://ms-eureka-server.azurewebsites.net/eureka
+      defaultZone: https://ms-eureka-server.azurewebsites.net:8761/eureka
     instance:
       hostname: localhost
