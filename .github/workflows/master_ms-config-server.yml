@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ms-config-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DAF8B2E9D8A44DA2A04A565BBE1FEF36 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89997B4DD44C4780A0452D8531120004 }}
           package: '*.jar'
