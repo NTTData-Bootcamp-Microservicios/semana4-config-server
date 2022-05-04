@@ -13,7 +13,8 @@ spring:
       server:
          git:
           default-label: master
-          uri: https://github.com/joffrehermosilla/config-repo
+          #uri: https://github.com/joffrehermosilla/config-repo
+          uri: https://github.com/NTTData-Bootcamp-Microservicios/semana4-config-server
           search-paths: config-data
       
           
