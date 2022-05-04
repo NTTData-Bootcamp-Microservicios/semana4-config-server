@@ -7,7 +7,7 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     service-url:
-      defaultZone: http://eureka-server.canadacentral.azurecontainer.io:8761/eureka
+      defaultZone: http://20.200.110.70:8761/eureka/
 spring:
   data:
     mongodb:
